@@ -3,3 +3,5 @@ dist/
 examples/__build__
 node_modules/
 coverage/
+package/
+.DS_Store
