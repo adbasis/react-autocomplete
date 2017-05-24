@@ -1,9 +1,10 @@
 import React from 'react'
-import DOM from 'react-dom'
+import createReactClass from 'create-react-class';
+import DOM from 'react-dom';
 import { getStates, matchStateToTerm, sortStates, styles } from '../../lib/utils'
 import Autocomplete from '../../lib/index'
 
-let App = React.createClass({
+let App = createReactClass({
   getInitialState() {
     return { value: 'Ma' }
   },

@@ -1,9 +1,10 @@
 import React from 'react'
 import DOM from 'react-dom'
+import createReactClass from 'create-react-class';
 import Autocomplete from '../../lib/index'
 import { getStates, styles, fakeRequest } from '../../lib/utils'
 
-let App = React.createClass({
+let App = createReactClass({
 
   getInitialState() {
     return {
